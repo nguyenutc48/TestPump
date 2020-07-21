@@ -527,7 +527,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PumpTest"
         "ProductCode" = "8:{FBFCF686-4BC4-4383-8EB1-34A3104F40E2}"
-        "PackageCode" = "8:{8F3356B1-1256-49B9-AE85-3FA1EE2B4ED5}"
+        "PackageCode" = "8:{37DBE8B8-9C1F-4680-8E9F-AB17BF05CD81}"
         "UpgradeCode" = "8:{CEF35EC0-4064-4EDA-BABA-332A56B1A9AB}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -544,7 +544,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_981B8F39D27144A38E78CD2E768F8A9C"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -649,7 +649,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_23F2B64358284E75B3913B8BC27C0126"
             {
-            "Name" = "8:TestPump"
+            "Name" = "8:Pump Test"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -663,7 +663,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8BFBA10B5AEF44538B2EB3E5D23D5C02"
             {
-            "Name" = "8:TestPump"
+            "Name" = "8:Pump Test"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
