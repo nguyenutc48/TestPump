@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="databaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TestData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="test_thoigian" Type="DateTime" Precision="3" />
+    <Property Name="test_docao" Type="Double" />
+    <Property Name="test_congsuat" Type="Double" />
+    <Property Name="test_hieusuat" Type="Double" />
+    <Property Name="test_khoiluong" Type="Double" />
+    <Property Name="test_nguoi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="test_project" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="test_model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="test_serialno" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="test_ordernumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="test_client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="test_motorpower" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="databaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TestDatas" EntityType="Self.TestData" />
+  </EntityContainer>
+</Schema>

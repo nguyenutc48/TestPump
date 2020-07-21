@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="databaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TestData">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="test_thoigian" Type="datetime" />
+    <Property Name="test_docao" Type="float" />
+    <Property Name="test_congsuat" Type="float" />
+    <Property Name="test_hieusuat" Type="float" />
+    <Property Name="test_khoiluong" Type="float" />
+    <Property Name="test_nguoi" Type="nvarchar" MaxLength="20" />
+    <Property Name="test_project" Type="nvarchar" MaxLength="100" />
+    <Property Name="test_model" Type="nvarchar" MaxLength="50" />
+    <Property Name="test_serialno" Type="nvarchar" MaxLength="50" />
+    <Property Name="test_ordernumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="test_client" Type="nvarchar" MaxLength="50" />
+    <Property Name="test_motorpower" Type="float" />
+  </EntityType>
+  <EntityContainer Name="databaseModelStoreContainer">
+    <EntitySet Name="TestData" EntityType="Self.TestData" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

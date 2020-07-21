@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="databaseModelStoreContainer" CdmEntityContainer="databaseEntities">
+    <EntitySetMapping Name="TestDatas">
+      <EntityTypeMapping TypeName="databaseModel.TestData">
+        <MappingFragment StoreEntitySet="TestData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="test_thoigian" ColumnName="test_thoigian" />
+          <ScalarProperty Name="test_docao" ColumnName="test_docao" />
+          <ScalarProperty Name="test_congsuat" ColumnName="test_congsuat" />
+          <ScalarProperty Name="test_hieusuat" ColumnName="test_hieusuat" />
+          <ScalarProperty Name="test_khoiluong" ColumnName="test_khoiluong" />
+          <ScalarProperty Name="test_nguoi" ColumnName="test_nguoi" />
+          <ScalarProperty Name="test_project" ColumnName="test_project" />
+          <ScalarProperty Name="test_model" ColumnName="test_model" />
+          <ScalarProperty Name="test_serialno" ColumnName="test_serialno" />
+          <ScalarProperty Name="test_ordernumber" ColumnName="test_ordernumber" />
+          <ScalarProperty Name="test_client" ColumnName="test_client" />
+          <ScalarProperty Name="test_motorpower" ColumnName="test_motorpower" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
